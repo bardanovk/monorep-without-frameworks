@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "jsx": "react",
+    "allowJs": true,
+    "isolatedModules": true,
+    "paths": {}
+  },
+  "include": [
+    "build-plugin/*.ts",
+    "client/**/*.ts",
+    "server/**/*.ts",
+    "client/**/*.js",
+    "server/**/*.js",
+    "client/**/*.tsx",
+    "client/**/*.jsx"
+  ],
+  "exclude": ["dist**/*"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
