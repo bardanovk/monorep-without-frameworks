@@ -1,4 +1,4 @@
-Monorepository exampwle without special frameframe, which manage pwoject workspace.
+Monorepository example without special frameframe, which manage pwoject workspace.
 
 - react-spa
 - nest.js - back-end app
